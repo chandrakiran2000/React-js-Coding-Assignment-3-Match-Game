@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px) {
+  .item-card {
+    margin-left: 7px;
+  }
+
+  .item-name {
+    color: #ffffff;
+    font-size: 13px;
+    margin-bottom: -20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+
+  .active-tab-class-name {
+    color: #fec653;
+    border-bottom: 2px solid #fec653;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .item-card {
+    margin-left: 10px;
+  }
+  .item-name {
+    color: #ffffff;
+    font-size: 30px;
+    padding-bottom: 8px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+
+  .active-tab-class-name {
+    color: #fec653;
+    border-bottom: 2px solid #fec653;
+  }
+}
